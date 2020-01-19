@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "vue": "^2.3.3",
-    "vue-meta": "^1.4.3"
+    "vue-meta": "^1.4.3",
+    "vue-bootstrap4-table": "^1.1.11"
   },
   "devDependencies": {
     "axios": "^0.19.1",

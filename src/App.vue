@@ -5,14 +5,17 @@
     </header>
     <main>
       <aside class="sidebar">
+        <router-link :to="{name:'viewTable', params: { id: 123 } }">Proxies</router-link>
+<!--
         <router-link
             v-for="post in posts"
             v-bind:key="post.id"
             active-class="is-active"
             class="link"
-            :to="{ name: 'post', params: { id: post.id } }">
+            :to="{ name: 'post1', params: { id: post.id } }">
           {{post.id}}. {{post.title}}
         </router-link>
+-->
       </aside>
       <div class="content">
         <router-view></router-view>
