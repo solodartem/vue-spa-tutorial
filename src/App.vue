@@ -7,6 +7,7 @@
       <aside class="sidebar">
         <router-link
             v-for="post in posts"
+            v-bind:key="post.id"
             active-class="is-active"
             class="link"
             :to="{ name: 'post', params: { id: post.id } }">
