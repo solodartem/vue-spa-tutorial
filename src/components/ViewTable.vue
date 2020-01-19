@@ -1,15 +1,16 @@
 <template>
     <div>
-        <vue-bootstrap4-table :rows="rows" :columns="columns" :config="config">
-        </vue-bootstrap4-table>
+        <vue-bootstrap4-table :rows="rows" :columns="columns" :config="config"> </vue-bootstrap4-table>
     </div>
 </template>
 
 <script>
+    import 'jquery'
+    import 'bootstrap'
+    import 'bootstrap/dist/css/bootstrap.min.css'
     import VueBootstrap4Table from 'vue-bootstrap4-table'
 
     export default {
-//        name: 'App',
         data: function() {
             return {
                 rows: [{

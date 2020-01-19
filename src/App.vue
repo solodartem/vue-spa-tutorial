@@ -6,6 +6,7 @@
     <main>
       <aside class="sidebar">
         <router-link :to="{name:'viewTable', params: { id: 123 } }">Proxies</router-link>
+        <router-link class="link" :to="{name:'viewTable', params: { id: 123 } }">List of  items</router-link>
 <!--
         <router-link
             v-for="post in posts"

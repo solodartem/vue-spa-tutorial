@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Meta from 'vue-meta'
+import 'jquery'
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import VueBootstrap4Table from 'vue-bootstrap4-table'
 import App from './App.vue'
-import post1 from './components/Post.vue'
 import ViewTable from './components/ViewTable.vue'
 import Hello from './components/Hello.vue'
 
